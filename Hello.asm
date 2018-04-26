@@ -72,7 +72,6 @@ forever:
 	lda $80
 	inc A
 	sta $80
-	cmp #1
 	bne Fin
 	lda #00
 	sta $80
